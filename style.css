@@ -9,8 +9,14 @@ h1 {
   padding: 21px;
 }
 
-h2 {
+h3 {
   padding-top: 30px;
+  padding-bottom: 6px;
+}
+
+h5 {
+    padding-top: 17px;
+    margin: 0px;
 }
 
 #sidebar {
@@ -21,20 +27,30 @@ h2 {
 
 #cityInfo {
   border: 1px solid #e0e0e0;
-  height: 420px;
+  height: 340px;
   margin: 20px 20px 10px 20px;
   border-radius: 10px;
 }
 
+#uvDiv {
+  display: none;
+}
+
+#uvIndex {
+  width: 56px;
+  border-radius: 6px;
+  padding-left: 8px;
+}
+
 #forecast {
   margin: 0px;
-  height: 190px;
+  color: #ffffff;
 }
 
 #day1, #day2, #day3, #day4, #day5 {
   margin: 10px 20px 10px 0px;
   border-radius: 10px;
-  background-color: #0053ab;
-  height: 180px;
+  background-color: #177cff;
+  height: 220px;
   float: left;
 }
