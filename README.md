@@ -1,4 +1,6 @@
-# WeatherDashboard
+### **WeatherDashboard** ###
+
+## **https://haloscot.github.io/WeatherDashboard/** ##
 
 This application provides users with the current weather and weather conditions and a 5 day weather forecast by city searched.  Past searches are saved to local storage and displayed below the search bar, so that users can see where they have searched the weather previously and easily reference back to it.
 
