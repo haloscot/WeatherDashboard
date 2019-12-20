@@ -56,6 +56,7 @@ $("#searchBtn").on("click", function () {
     cities.push(searchInput);
     localStorage.setItem("Cities", JSON.stringify([...cities, ...oldCities]));
   
+    city = $("#search").val();
     generateInfo();
 
   });
