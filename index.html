@@ -9,11 +9,49 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/5442a2e73b.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+  <div class="page-header">
+      <h1>Weather Dashboard</h1>
+  </div>
+      
+  <div class="row">
+      <div class="col-md-3 bg-light" id="sidebar">
+        <h6>Search for a city:</h6>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="text" aria-label="Search" id="search">
+            <button type="button" class="btn btn-primary" id="searchBtn"><i class="fas fa-search"></i></button>
+          </form>
+        <div id="cityBtns"></div>
+      </div>
+
+      <div class="col-md-9">
+        <div class="row">
+          <div class="container" id="cityInfo">
+              <div class="row container">
+                  <h2 id="cityName"></h2>
+                  <img id="icon">
+              </div>
+              <p id="temp"></p>
+              <p id="humidity"></p>
+              <p id="windSpeed"></p>
+              <p id="uvIndex"></p>
+          </div>
+        </div>
+        
+        <div class="row container" id="forecast">
+                <div class="col-md" id="day1"></div>
+                <div class="col-md" id="day2"></div>
+                <div class="col-md" id="day3"></div>
+                <div class="col-md" id="day4"></div>
+                <div class="col-md" id="day5"></div>
+          </div>
+
+      </div>
+  </div>
 
     <script src="script.js"></script>
 </body>
